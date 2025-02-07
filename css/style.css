@@ -90,6 +90,46 @@ header a:hover {
     border-top-style: solid;
 }
 
+/***************** Recherche *******************/
+
+.recherche {
+    display:flex;
+    margin: 35px 0;
+}
+
+.recherche-label {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    width: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;   
+}
+
+.dark-location {
+    color: black;
+}
+
+.recherche-input {
+    border-color: var(--main-bg-color);
+    border-style: solid;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.recherche-submit {
+    background-color: var(--main-color);
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
