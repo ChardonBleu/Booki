@@ -16,6 +16,34 @@
     width: 65%;
 }
 
+.hebergement-cards {
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 0;
+}
+
+.hebergement-cards a {
+    width: 30%;
+}
+
+.hebergement-cards .card {
+    display:flex;
+    flex-direction: column;
+}
+
+.hebergement-cards img {
+    border-radius: 20px;
+    height: 124px;
+    object-fit: cover;
+}
+
+.hebergement-cards .card-content {
+    padding-left: 10px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -37,6 +65,7 @@
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .populaires-cards .card-content {
