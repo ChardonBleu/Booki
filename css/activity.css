@@ -1,0 +1,59 @@
+/********** Activity ***********/
+.activite {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+.activite-cards {
+    display:flex;
+    margin-top: 30px;
+    padding: 0;
+    gap: 30px;
+}
+
+.activite-cards a {
+    width: 25%;
+
+}
+
+.activite-cards .card {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:0;
+    height: 100%;
+}
+
+.activite-cards .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height:80%;
+    padding:0;
+}
+
+.activite-cards .card .card-title {
+    height: 10%;
+    padding-left: 15px;
+    margin:0;
+    display:flex;
+    align-items: center;
+    
+}
+
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .activite-cards .card img {
+        height:200px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}
