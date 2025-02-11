@@ -33,4 +33,5 @@
 
 .header-nav a:hover {
     border-top-color: var(--main-color);
+    color: var(--main-color);
 }
