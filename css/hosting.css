@@ -25,6 +25,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px 0;
+    
 }
 
 .hebergement-cards a {
@@ -35,11 +36,13 @@
 .hebergement-cards .card {
     display:flex;
     flex-direction: column;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     
 }
 
 .hebergement-cards img {
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: 124px;
     object-fit: cover;
 }
@@ -81,6 +84,7 @@
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 10%);
 }
 
 .populaires-cards img {
