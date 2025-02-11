@@ -19,8 +19,6 @@
     border-bottom-left-radius: 15px;   
 }
 
-
-
 .recherche-input {
     border-color: var(--main-bg-color);
     border-style: solid;
@@ -45,6 +43,10 @@
     margin-bottom: 30px;
 }
 
+.filtre-title {
+    font-size: 1.125rem;
+}
+
 .filtre-button {
     padding: 4px 19px;
     font-size: 1.063rem;
@@ -55,6 +57,7 @@
     border-radius: 50px;
     display:flex;
     align-items: center;
+    gap: 10px;
 }
 
 .filtres button:hover {

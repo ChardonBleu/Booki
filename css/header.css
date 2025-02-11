@@ -1,17 +1,26 @@
 /******************* Header ********************/
 .header {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
+    flex-direction: column;
 }
 
 .header img {
     width: 61px;
     height: 19px;
     padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    margin: 0;
 }
 
 .header-nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-nav nav {
     display:flex;
     gap: 60px;
 }
