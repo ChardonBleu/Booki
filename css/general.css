@@ -51,6 +51,8 @@ p {
 
 .card-title {
     font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 
 .euro {

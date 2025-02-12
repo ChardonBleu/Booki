@@ -36,7 +36,6 @@
 .hebergement-cards .card {
     display:flex;
     flex-direction: column;
-    /* box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1); */
 
 }
 
@@ -47,12 +46,11 @@
 }
 
 .hebergement-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-left: 10px;
-}
-
-.hebergement-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    height: 80px;
 }
 
 .hebergement-cards .card-subtitle {
@@ -100,11 +98,6 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-}
-
-.populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
 }
 
 .populaires-cards .card-subtitle {
