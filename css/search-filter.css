@@ -24,6 +24,7 @@
     border-style: solid;
     font-size: 1.125rem;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 .recherche-submit {
@@ -39,15 +40,20 @@
 
 .filtres {
     display:flex;
-    gap: 15px;
     margin-bottom: 35px;
 }
 
 .filtre-title {
     font-size: 1.125rem;
+    padding-right: 15px;
 }
 
-.filtre-button {
+.filtre-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.filtre-buttons .button {
     padding: 4px 19px;
     font-size: 1.063rem;
     font-weight: bold;
@@ -81,6 +87,26 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .recherche-input {
+        font-size: 1rem;
+    }
+
+    .recherche-submit {
+        font-size: 1rem;
+    }
+
+    .filtre-title {
+        font-size: 1rem;
+    }
+
+    .filtres {
+        flex-direction: column;
+    }
+
+    .filtre-buttons .button {
+        padding: 14px 19px;
+        font-size: 0.875rem;
+    }
 
 }
 

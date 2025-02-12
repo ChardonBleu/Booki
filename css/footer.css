@@ -25,11 +25,20 @@
 
 .footer-list li {
     padding-top: 20px;
+    font-size: 1rem;
 }
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .footer-title {
+        font-size: 1rem;
+        margin:0;
+    }
+
+    .footer-list li {
+        font-size: 0.875rem;
+    }
 
 }
 
