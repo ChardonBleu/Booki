@@ -24,22 +24,20 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px 0;
-    
+    gap: 30px 0;    
 }
 
 .hebergement-cards a {
     width: 30%;
-    height:30%;
 }
 
 .hebergement-cards .card {
     display:flex;
     flex-direction: column;
-
+    height: 100%;
 }
 
-.hebergement-cards .card img {
+.hebergement-cards img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 124px;
@@ -50,7 +48,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 10px;
-    height: 80px;
+    height: 45%;
 }
 
 .hebergement-cards .card-subtitle {
