@@ -19,6 +19,10 @@
     border-bottom-left-radius: 15px;
 }
 
+.recherche-label .dark-location {
+    color: black;
+}
+
 .recherche-input {
     border-color: var(--main-bg-color);
     border-style: solid;
@@ -121,10 +125,6 @@
     .filtre-buttons .button {
         padding: 14px 19px;
         font-size: 0.875rem;
-    }
-
-    .dark-location {
-        color: black;
     }
     
     .search-icon {
