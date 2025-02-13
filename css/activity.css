@@ -57,5 +57,20 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .activite {
+        margin-top: 35px;
+    }
+
+    .activite-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activite-cards a {
+        width: 100%;
+    }
+
+    .activite-cards .card-title {
+        padding: 20px;
+    }
 }
