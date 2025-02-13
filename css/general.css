@@ -75,8 +75,6 @@ p {
     }
 
     body {
-        display: flex;
-        justify-content: center;
         font-size: 0.875rem;
     }
 
@@ -89,5 +87,20 @@ p {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .main-container {
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 1.125rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;  /* 22px */
+        font-weight: bold;
+    }
 }

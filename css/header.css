@@ -6,7 +6,6 @@
 
 .header img {
     width: 61px;
-    height: 19px;
     padding: 30px 0;
     margin-bottom: 30px;
 }
@@ -34,4 +33,47 @@
 .header-nav a:hover {
     border-top-color: var(--main-color);
     color: var(--main-color);
+}
+
+/****** Media queries ***********/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+
+    .header-nav nav {
+        width: 100%;
+        gap:0px;        
+    }
+
+    .header-nav-link {
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header img {
+        width: 70px;
+        padding-bottom: 0;
+    }
+
+    .header-nav a:hover {
+        border-top-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-color: var(--main-color);
+    }
+
+    .header-title {
+        margin: 0 20px;
+    }
+
+    .header-subtitle {
+        margin: 0 20px;
+        padding-top: 8px;
+        font-size: 1.063rem;
+    }
 }

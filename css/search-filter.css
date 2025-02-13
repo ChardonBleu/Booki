@@ -3,6 +3,7 @@
 .recherche-and-filtre {
     margin-bottom: 35px;
 }
+
 .recherche {
     display:flex;
     margin-top:35px;
@@ -112,5 +113,7 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .recherche-and-filtre {
+        width:100%
+    }
 }
