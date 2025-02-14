@@ -4,11 +4,10 @@
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-
 }
 
 .activite-cards {
-    display:flex;
+    display: flex;
     margin-top: 30px;
     padding: 0;
     gap: 30px;
@@ -16,14 +15,12 @@
 
 .activite-cards a {
     width: 25%;
-
 }
 
 .activite-cards .card {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding:0;
+    padding: 0;
     height: 100%;
 }
 
@@ -31,17 +28,17 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
-    height:80%;
-    padding:0;
+    padding: 0;
+    max-height: 380px;
+    height: 88%;
 }
 
-.activite-cards .card .card-title {
-    height: 10%;
+.activite-cards .card-title {
     padding-left: 15px;
-    margin:0;
-    display:flex;
+    margin: 0;
+    display: flex;
     align-items: center;
-    
+    height: 12%;
 }
 
 
@@ -49,11 +46,31 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .activite-cards .card img {
-        height:200px;
+        max-height: 200px;
+        height: 74%;
+    }
+
+    .activite-cards .card-title {
+        height: 26%;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .activite {
+        margin-top: 35px;
+    }
+
+    .activite-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activite-cards a {
+        width: 100%;
+    }
+
+    .activite-cards .card-title {
+        padding: 20px;
+    }
 }
